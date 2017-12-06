@@ -1,0 +1,61 @@
+* {
+  background-color: rgb(1, 144, 180);
+  color: white;
+}
+
+/*font-family: 'Cabin Sketch', cursive;
+font-family: 'Love Ya Like A Sister', cursive;
+font-family: 'Cantarell', sans-serif;*/
+
+main{
+}
+
+#beer-list {
+  font-family: 'Cabin Sketch', cursive;
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 15px;
+  max-width: 100%;
+  align-items: flex-end;
+}
+
+input{
+  padding: 10px;
+  border-radius: 5px;
+  width: 400px;
+  font-size: 22px;
+  margin: 10px;
+}
+
+.beers{
+  padding: 5px;
+}
+
+#header-image {
+  width: 100%;
+  height: 500px;
+}
+
+li-name {
+  font-size: 40px;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+li-tag {
+  font-family: 'Cantarell', sans-serif
+}
+
+li {
+  list-style-type: none;
+  text-decoration: none;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+li img {
+  max-width: 150px;
+  max-height: 500px;
+  margin-bottom: 50px
+}
